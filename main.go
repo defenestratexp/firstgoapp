@@ -10,6 +10,8 @@ func main() {
 
 	// Assigning a value during initialization
 	var j int = 43
-	fmt.Println("Default way, " + i)
-	fmt.Println("Same line way, " + j)
+	fmt.Println("Default way:")
+	fmt.Print(i)
+	fmt.Println("Same line way:")
+	fmt.Print(j)
 }
