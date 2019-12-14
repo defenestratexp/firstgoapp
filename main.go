@@ -7,5 +7,9 @@ func main() {
 	// keyword variable_name type
 	var i int
 	i = 42
-	fmt.Println(i)
+
+	// Assigning a value during initialization
+	var j int = 43
+	fmt.Println("Default way, " + i)
+	fmt.Println("Same line way, " + j)
 }
